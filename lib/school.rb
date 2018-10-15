@@ -29,8 +29,7 @@ class School
 
   def sort
     @roster.each do |grade, student_arrays|
-      binding.pry
-      student_arrays.sort
+      student_arrays.sort!
     end
   end
 
